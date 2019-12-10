@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: Segoe UI;
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: absolute;
+	background-color: transparent;
+	width: 100%;
+	top:0;
+}
+
+p {
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.strong{
+	padding: 5px 0;
+	color: #222;
+	font-weight: 400;
+}
+.titulo-blanco{
+	font-size: 60px;
+	font-weight: 600;
+	color: #fff;
+}
+
+
+.titulo{
+	font-size: 34px;
+	font-weight: 600;
+	color: #222;
+	text-transform:capitalize; 
+	padding: 50px 0 0 0;
+}
+
+.titulo-sin{
+	font-size: 34px;
+	font-weight: 600;
+	color: #222;
+	text-transform:capitalize; 
+}
+
+.subtitulo{
+	font-size: 14px;
+	font-weight: 300;
+	color: #B68834;
+	text-transform: uppercase;
+}
+
+#hero{
+	background-image: url("../img/header-bg.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	padding: 10% 0 20% 0;
+}
+
+.btn-blanco{
+	border-radius: 50px;
+	padding: 5px 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+#about{
+	padding: 5% 0;
+}
+
+#menu{
+	background-image: url("../img/menu-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5% 0;
+}
+
+.texto-corto{
+	max-width: 60%;
+	margin: 10px auto;
+	text-align:center;
+}
+
+.botones{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+.botones h4{
+	font-size: 18px;
+	color: #222;
+}
+
+.botones h3{
+	font-size: 18px;
+	color: #B68834;
+	text-align: left;
+}
+
+.botones p{
+	font-size: 12px;
+	color: #777;
+	padding: 10px 0;
+}
+
+#kind{
+	padding: 5% 0;
+}
+
+#blog{
+	background-color: #E3E3E3;
+	padding: 5% 0;
+}
+
+#footer{
+	background-image: url("../img/footer-bg.jpg");
+	padding: 5% 0;
+}
